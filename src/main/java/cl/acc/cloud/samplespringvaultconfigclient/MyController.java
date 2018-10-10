@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyController {
     @Value("${message}")
-    String host = "Hello World";
+    String host;
 
     @RequestMapping("/")
     public String home() {
