@@ -4,4 +4,4 @@
 
 * Set variable VAULT_TOKEN with a valid token:
 
-```$ export VALUT_TOKEN={valid_auth_token_value}
+      $ export VALUT_TOKEN={valid_auth_token_value}
