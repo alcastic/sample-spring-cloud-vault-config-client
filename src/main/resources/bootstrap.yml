@@ -1,0 +1,13 @@
+spring.application.name: sample-spring-cloud-vault-config-client
+spring.cloud.vault:
+  host: 35.227.69.150
+  port: 8200
+  scheme: http
+  authentication: TOKEN
+  token: ${VAULT_TOKEN}
+  generic:
+    enabled: true
+    backend: quasar
+    profile-separator: '/'
+    default-context: application
+    application-name: sample-spring-cloud-vault-config
